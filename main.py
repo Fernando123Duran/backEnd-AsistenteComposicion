@@ -91,6 +91,7 @@ def generador(partitura:Partitura)->list:
         n=np.argmax(probs,axis=-1)
         # print(n[0])
         if n[0]==28:
+            nuevalista.append(n[0])
             break
         else:
             nuevalista.append(n[0])
