@@ -12,6 +12,7 @@ _Se requeire la instalación de los siguientes programas._
 * **Anaconda** [instalador](https://www.anaconda.com/products/distribution) 
 * **Visual Studio Code** [instalador](https://code.visualstudio.com/) 
 * **Git** [instalador](https://git-scm.com/) 
+### Sugerencia
 para la instalacion de estos programas existen diferentes tutoriales de instalacion en Youtube.
 ## Instalación 🔧
 Para ejecutar el programa siga los siguientes pasos:
@@ -55,7 +56,7 @@ Esta api podra ser consumida desde el plugin del siguiente repositorio:
 
 ## Autores ✒️
 
-* **Luis Fenrando Duran Rosas** - *Desarrollo del Plugin* - [Fernando123Duran](https://github.com/Fernando123Duran)
+* **Luis Fenrando Duran Rosas** - *Desarrollo del Api Rest* - [Fernando123Duran](https://github.com/Fernando123Duran)
 
 
 ## Licencia 📄
