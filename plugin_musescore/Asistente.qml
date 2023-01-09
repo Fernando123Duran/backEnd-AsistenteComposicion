@@ -6,10 +6,11 @@ import QtQuick.Layouts 1.1
 import FileIO 3.0
 import QtQuick.Controls.Styles 1.4
 import Qt.labs.settings 1.0
-// import "ope.js" as Ope
+
 MuseScore {
-      menuPath: "Plugins.extraccion"
-      description: "Description goes here"
+      menuPath: "Plugins.AsistenteComposicion"
+      description: "Asistente de composición musical con inteligencia artificial, de generos nacionales(Bolivia)"
+      
       version: "3.0"
       pluginType: "dialog"
       requiresScore: false
@@ -281,6 +282,7 @@ MuseScore {
                   asignarDuracion(dicInverso[listaVal[1].toString()],cursor)
                   if(listaVal[0]==26){
                         cursor.addRest();
+                        textNotaGen.text = "Silencio";
                         saltoCursorTick=saltoCursorTick+1
                   }else{
                         var notaMidi =parseInt(dicInverso[listaVal[0].toString()])
@@ -307,6 +309,7 @@ MuseScore {
                   asignarDuracion(dicInverso[listaVal[1].toString()],cursor)
                   if(listaVal[0]==26){
                         cursor.addRest();
+                        textNotaGen.text = "Silencio";
                         saltoCursorTick=saltoCursorTick+1
                   }else{
                         var notaMidi =parseInt(dicInverso[listaVal[0].toString()])
@@ -426,7 +429,7 @@ MuseScore {
                   //anchors.centerIn: parent
                   x: 20
                   y: 50
-                  text: qsTr("DO")
+                  text: qsTr("Notas generadas.")
                   font.bold: true
                   fontSizeMode: Text.Fit
                   font.pixelSize: 25 

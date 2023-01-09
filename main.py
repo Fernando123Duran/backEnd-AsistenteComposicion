@@ -9,7 +9,7 @@ duration=[3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,]
 ligas=[19,20,21]
 unSoloValor=[0,1,2,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,]
 brakets=[22,23,24,25,27]
-ort_session = ort.InferenceSession('models/Epoch150.onnx')
+ort_session = ort.InferenceSession('models/Epoch200.onnx')
 app =FastAPI()
 
 class Partitura(BaseModel):
@@ -86,7 +86,7 @@ def generador(partitura:Partitura)->list:
         part=np.expand_dims(part,axis=(0))
         part=np.int64(part)
         salida= ort_session.run(["output"],{"input":part})[0]
-        salida=salida[:,-1,:]/1
+        salida=salida[:,-1,:]/1.0
         probs =softmax(salida,axis=-1)
         n=np.argmax(probs,axis=-1)
         # print(n[0])
