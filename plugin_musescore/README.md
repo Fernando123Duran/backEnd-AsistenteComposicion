@@ -1,4 +1,4 @@
-# Plugin de para Musescore
+# Plugin para Musescore
 _Este es un Asistente de Composición, un plugin que consume una api con un modelo GPT, entrenado con partituras de musicas autoctonas de Bolivia._
 
 ## Comenzando 🚀
