@@ -48,7 +48,7 @@ source: "C:/Users/{NAME}/Documents/MuseScore3/Plugins/vocabularioMIDI.json"
 
 _El plugin en ejecución sacara a la vista una venta, como las siguiente imagen:_
 
-[![Venta desplegada](https://github.com/Fernando123Duran/backEnd-AsistenteComposicion/tree/main/plugin_musescore/img/ventana.png)]
+![Venta desplegada](https://github.com/Fernando123Duran/backEnd-AsistenteComposicion/tree/main/plugin_musescore/img/ventana.png)
 
 El boton ***Siguiente***, genera la siguiente Nota musical la cual se vera pintada en la partitura, como tambien en el centro de la ventana se muertra el tipo de nota y la octava en la cual se encuentra.
 
