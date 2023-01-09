@@ -1,11 +1,11 @@
 # Plugin de para Musescore
-_Este es un Asistente de Composición, un plugin que consume una api con un modelo GPT, entrenado con partituras de musicas autoctonas de Bolivia. _
+_Este es un Asistente de Composición, un plugin que consume una api con un modelo GPT, entrenado con partituras de musicas autoctonas de Bolivia._
 
 ## Comenzando 🚀
 
 _Este Readme tiene instrucciones de instalación y uso del plugin._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+
 
 
 ## Pre-requisitos 📋
@@ -48,7 +48,7 @@ source: "C:/Users/{NAME}/Documents/MuseScore3/Plugins/vocabularioMIDI.json"
 
 _El plugin en ejecución sacara a la vista una venta, como las siguiente imagen:_
 
-![Aquí la descripción de la imagen por si no carga](https://github.com/Fernando123Duran/backEnd-AsistenteComposicion/tree/main/plugin_musescore/img/ventana.png)
+[![Venta desplegada](https://github.com/Fernando123Duran/backEnd-AsistenteComposicion/tree/main/plugin_musescore/img/ventana.png)]
 
 El boton ***Siguiente***, genera la siguiente Nota musical la cual se vera pintada en la partitura, como tambien en el centro de la ventana se muertra el tipo de nota y la octava en la cual se encuentra.
 
@@ -58,13 +58,13 @@ El boton ***Salir***, detiene la ejecución del plugin.
 
 
 
-***Luis Fernando Duran Rosas***
+
 
 ## Autores ✒️
 
 
 
-* **Luis Fenrando Duran Rosas** - *Desarrollo del Plugin* - [villanuevand](https://github.com/Fernando123Duran)
+* **Luis Fenrando Duran Rosas** - *Desarrollo del Plugin* - [Fernando123Duran](https://github.com/Fernando123Duran)
 
 
 ## Licencia 📄
