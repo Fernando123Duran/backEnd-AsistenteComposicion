@@ -31,9 +31,7 @@ _Si la api esta corriendo de manera local verifique que la urlBase sea la siguie
 ```
 property string urlBase : "http://127.0.0.1:8000/"
 ```
-### Nota
-_Para realizar la ejecución de la api de forma local revise el siguiente repositorio:_
-* [BackEnd Api](https://github.com/Fernando123Duran/backEnd-AsistenteComposicion) - Codigo fuente del BackEnd y el modelo entrenado.
+
 
 Configuración del path de los archivos json.
 _Verifique que el path de los archivos json este deacuerdo a su maquina._
@@ -42,7 +40,9 @@ source: "C:/Users/{NAME}/Documents/MuseScore3/Plugins/vocabulario2022.json"
 source: "C:/Users/{NAME}/Documents/MuseScore3/Plugins/vocabulario_inverso_2022.json"
 source: "C:/Users/{NAME}/Documents/MuseScore3/Plugins/vocabularioMIDI.json"
 ```
-
+### Nota
+_Para realizar la ejecución de la api de forma local revise el siguiente repositorio:_
+* [BackEnd Api](https://github.com/Fernando123Duran/backEnd-AsistenteComposicion) - Codigo fuente del BackEnd y el modelo entrenado.
 
 ### Funcionamiento del plugin🔩
 
